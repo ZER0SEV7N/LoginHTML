@@ -37,7 +37,7 @@ body {
     text-align: center;
     padding: 40px;
     z-index: 1;
-    transition: .6s ease-in-out, visibility 0s 1s;
+    transition: .6s ease-in-out 1.2s, visibility 0s 1s;
 }
 
 .container.active .form-box {
@@ -50,7 +50,6 @@ body {
 
 .container.active .form-box.register {
     visibility: visible;
-    right: 0;
 }
 
 form {
